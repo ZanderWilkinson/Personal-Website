@@ -1,0 +1,77 @@
+{{ define "main" }}
+            Year-long independent research project carried out with the University of Sheffield Medical Physics Department and Royal Hallamshire Hospital, aimed at quality assuring a novel flow phantom using computational and electronic methods.
+          </p>
+          <ul class="clean">
+            <li>Used Python, MATLAB, and C++ for data wrangling, analysis, visualisation, and control.</li>
+            <li>Combined electronics, CAD, 3D printing, and signal analysis.</li>
+            <li>Produced a 52-page dissertation and delivered a 20-minute viva.</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience">
+    <div class="container">
+      <h2 class="section-title">Experience & Highlights</h2>
+      <p class="section-copy">A few additional highlights from academic, technical, and collaborative work.</p>
+      <div class="grid-2">
+        <div class="card content-card">
+          <h3>Presentations & team projects</h3>
+          <ul class="clean">
+            <li>Presented undergraduate research at a student conference organised with Sheffield Teaching Hospitals NHS Foundation Trust and the University of Sheffield.</li>
+            <li>Technical lead in an interdisciplinary smart roads project, achieving a distinction individually and third place across the cohort.</li>
+            <li>Worked with industry partners during Global Engineering Week on solutions for rural Australian communities.</li>
+          </ul>
+        </div>
+        <div class="card content-card">
+          <h3>Additional development</h3>
+          <ul class="clean">
+            <li>Codecademy Data Scientist / Machine Learning Specialist pathway in progress.</li>
+            <li>Additional study in Python, intermediate Python, R, command line, and Git/GitHub.</li>
+            <li>Experience in electronics, control systems, bacterial and tissue bioengineering labs, CAD, 3D printing, and scientific writing.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2 class="section-title">Contact</h2>
+      <p class="section-copy">Update these links later in `hugo.toml`.</p>
+      <div class="grid-2">
+        <div class="card content-card">
+          <h3>Get in touch</h3>
+          <p><strong>Email:</strong> <a href="mailto:{{ site.Params.email }}">{{ site.Params.email }}</a></p>
+          <p><strong>Phone:</strong> <a href="tel:{{ site.Params.phone }}">{{ site.Params.phone }}</a></p>
+          <p><strong>GitHub:</strong> <a href="{{ site.Params.github }}">{{ site.Params.github }}</a></p>
+          <p><strong>LinkedIn:</strong> <a href="{{ site.Params.linkedin }}">{{ site.Params.linkedin }}</a></p>
+          <p><strong>CV:</strong> <a href="/cv.pdf">Download CV</a></p>
+        </div>
+        <div class="card content-card">
+          <h3>Editing notes</h3>
+          <ul class="clean">
+            <li>Change the URLs in `hugo.toml`.</li>
+            <li>Upload your CV to `static/cv.pdf`.</li>
+            <li>Add more pages later by creating new Markdown files in `content/`.</li>
+            <li>Remove your phone number if you do not want it public.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="card footer-card">
+      <div>
+        <strong>{{ site.Params.name }}</strong><br>
+        MSc Bioinformatics · Data, software, and computational biology
+      </div>
+      <div>Built with Hugo.</div>
+    </div>
+  </div>
+</footer>
+{{ end }}
