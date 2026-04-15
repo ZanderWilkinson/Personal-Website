@@ -7,6 +7,3 @@ title = 'Alexander Wilkinson'
   role = 'MSc Bioinformatics Student · First-Class Engineering Graduate'
   
   github = 'https://github.com/zanderwilkinson'
-
-[outputs]
-  home = ['HTML']
