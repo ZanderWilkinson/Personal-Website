@@ -1,0 +1,11 @@
+baseURL = 'https://yourusername.github.io/'
+languageCode = 'en-gb'
+title = 'Alexander Wilkinson'
+
+[params]
+  name = 'Alexander Wilkinson'
+  role = 'MSc Bioinformatics Student · First-Class Engineering Graduate'
+  email = 'Zanderwilkinson2@gmail.com'
+  phone = '07491205758'
+  github = 'https://github.com/yourusername'
+  linkedin = 'https://www.linkedin.com/in/yourprofile'
