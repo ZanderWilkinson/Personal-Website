@@ -1,4 +1,4 @@
-baseURL = 'https://yourusername.github.io/'
+baseURL = 'https://zanderwilkinson.github.io/'
 languageCode = 'en-gb'
 title = 'Alexander Wilkinson'
 
@@ -6,5 +6,5 @@ title = 'Alexander Wilkinson'
   name = 'Alexander Wilkinson'
   role = 'MSc Bioinformatics Student · First-Class Engineering Graduate'
   
-  github = 'https://github.com/yourusername'
+  github = 'https://github.com/zanderwilkinson'
   
